@@ -94,8 +94,8 @@ async function checkBirthdays() {
   const todayMonth = today.getMonth() + 1;
 
   rows.forEach(row => {
-    const dob = row[6]; // Дата народження в колонці G (індекс 6)
-    const fullName = row[4]; // Повне ім'я в колонці E (індекс 4)
+    const dob = row[6]; 
+    const fullName = row[4]; 
 
     if (dob) {
       const [day, month] = dob.split('.').map(Number);
