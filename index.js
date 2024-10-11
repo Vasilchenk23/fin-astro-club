@@ -270,7 +270,7 @@ bot.on('text', async (ctx) => {
 
 });
 
-cron.schedule('38 19 * * *', checkBirthdays);
+cron.schedule('00 10 * * *', checkBirthdays);
 
 bot.launch();
 console.log('Бот запущен');
